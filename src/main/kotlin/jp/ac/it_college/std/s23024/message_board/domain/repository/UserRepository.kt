@@ -5,4 +5,6 @@ import org.apache.catalina.User
 
 interface UserRepository {
     fun save(user: User)
+    fun find(id: Long)  : User?
+    fun findByUsername(email: String) : User?
 }

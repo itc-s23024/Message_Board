@@ -1,5 +1,6 @@
 package jp.ac.it_college.std.s23024.message_board.application.service
 
+import jp.ac.it_college.std.s23024.message_board.domain.repository.UserRepository
 import org.apache.catalina.User
 import org.springframework.security.core.userdetails.UsernameNotFoundException
 import org.springframework.stereotype.Service
